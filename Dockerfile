@@ -13,7 +13,7 @@ EXPOSE 80
 # Verify file permissions
 RUN chmod 644 /usr/share/nginx/html/hurray.html && \
     chmod 644 /usr/share/nginx/html/yes.html && \
-    chmod 644 /usr/share/nginx/html/nextpage.html && \
+    chmod 644 /usr/share/nginx/html/meet.html && \
     chmod 644 /usr/share/nginx/html/style.css
 
 # Start Nginx when the container launches
