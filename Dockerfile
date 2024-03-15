@@ -11,7 +11,7 @@ COPY style.css /usr/share/nginx/html/
 EXPOSE 80
 
 # Verify file permissions
-RUN chmod 644 /usr/share/nginx/html/finally.html && \
+RUN chmod 644 /usr/share/nginx/html/hurray.html && \
     chmod 644 /usr/share/nginx/html/yes.html && \
     chmod 644 /usr/share/nginx/html/nextpage.html && \
     chmod 644 /usr/share/nginx/html/style.css
