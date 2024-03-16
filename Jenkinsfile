@@ -5,7 +5,7 @@ pipeline{
         
         stage('Checkout from Git'){
             steps{
-                git branch: 'main', url: 'https://github.com/vijaygiduthuri/Valentine-Day-DevOps-Project.git'
+                git branch: 'main', url: 'https://github.com/iamchiru1024/valentine-project.git'
             }
         }
         stage('TRIVY FS SCAN') {
