@@ -16,7 +16,7 @@ pipeline{
         stage("Docker Build & Tag Docker Image"){
             steps{
                 script{
-                   withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker'){   
+                   withDockerRegistry(credentialsId: 'docker-creds', toolName: 'docker'){   
                        sh "docker build -t chirru1024/valentinesdays:v1 ."
                     }
                 }
@@ -30,7 +30,7 @@ pipeline{
         stage('Docker push'){
             steps {
                 script{
-                   withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker'){   
+                   withDockerRegistry(credentialsId: 'docker-creds', toolName: 'docker'){   
                        sh "docker push chirru1024/valentinesdays:v1"
               }
           }
