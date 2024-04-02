@@ -19,8 +19,11 @@
    H.Install aws cli by running the belwo commands one by one.
    
      #curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+   
      #unzip awscliv2.zip
+   
      #sudo ./aws/install
+   
      #aws configure  <provide your account security keys>
    
 3)After installing terraform,create new directory "terraform-project" and create Main.tf and provider.tf files in terraform-project directory.You can Copy paste same files from my github account.
