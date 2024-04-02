@@ -58,5 +58,6 @@ https://github.com/iamchiru1024/valentine-date-project.git
 in "Branches to build" section change */master to  */main and save 
 8)Now the final step click on "Build Now" to start the pipeline
 9) Once the build is success paste the url in your favaroit browser 
+ url is public ip of jenkins server with port number 8081
 
-ie: <jenkins server ip>:8081/yes.html
+ie: ip-adress:8081/yes.html
