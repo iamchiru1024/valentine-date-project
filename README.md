@@ -3,13 +3,21 @@
 1) Launch t2.micro ubuntu instance manually and allow all traffic.
 2) Login to the instance and install teraform by using below commands.
    A. sudo apt update
+   
    B.  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+   
    C. echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
+   
    D. sudo apt update
+   
    E. sudo apt install terraform -y
+   
    F.terraform --version
+   
    G. sudo apt install unzip
+   
    H.Install aws cli by running the belwo commands one by one.
+   
      #curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
      #unzip awscliv2.zip
      #sudo ./aws/install
