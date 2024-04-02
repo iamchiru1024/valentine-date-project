@@ -31,7 +31,7 @@
 
   #git clone https://github.com/iamchiru1024/valentine-date-project.git
   
-4)After cloneing the repository,run the below commands in the same directory,terraform will create jenkins server and install docker,trivy.
+4)After cloning the repository,run the below commands in the same directory,terraform will create jenkins server and install docker,trivy.
  
   a. terraform init
   
