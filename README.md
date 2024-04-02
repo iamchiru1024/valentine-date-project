@@ -43,17 +43,18 @@
   
   for initial login password run below command
   
- #cat /var/lib/jenkins/secrets/initialAdminPassword (from jenkins server cli)
+ #cat /var/lib/jenkins/secrets/initialAdminPassword    (from jenkins server cli)
+ 
 give user name password and other details and then install suggested plugins to finish the setup.
   
 5)After Jenkins setup is completed. 
 go to this path in jenkins GUI "Dashboard>Manage Jenkins>Plugins" and select available plugins , search for docker and install first 5 docker plugins.
 6) Go to Manage jenkins and click on tools, search for docker and give name as docker and select "Install automatically" option and select download from docker.com
 7) In manage jenkins search for credentials ,select system ,select Global credentials (unrestricted) ,select add credential,give docker hub username and password and ID as docker-cred
-6)To create a pipeline go to manage jenkins,select New item and enter item name and then select pipeline and click OK
+6)To create a pipeline go to manage jenkins,select "New item" and enter item name and then select pipeline and click OK
 7) in the next page scroll down to bottom to see Pipeline option, In Definition dropbox select "pipeline script from SCM" then select Git for SCM and give below url in "Repository URL".
 https://github.com/iamchiru1024/valentine-date-project.git
 
 in "Branches to build" section change */master to  */main and save 
-8)Now the final step click on Build Now to start the pipeline
-9) Once the build is success paste the url in your favaroit browser  <public-IP of jenkins server>:8081/yes.html
+8)Now the final step click on "Build Now" to start the pipeline
+9) Once the build is success paste the url in your favaroit browser ie: <public-IP of jenkins server>:8081/yes.html
