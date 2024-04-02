@@ -38,9 +38,11 @@
   
   c. terraform apply
   
-  A new ec2 instance (jenkins server)will be created, use the public ip of the new instance to connect jenkins GUI.  url: <public-IP>:8080
-  for initial login password do
-cat /var/lib/jenkins/secrets/initialAdminPassword (from jenkins server cli)
+  A new ec2 instance (jenkins server)will be created, use the public ip of the new instance to connect jenkins GUI.  (Jenkins url: <public-IP>:8080)
+  
+  for initial login password run below command
+  
+ #cat /var/lib/jenkins/secrets/initialAdminPassword (from jenkins server cli)
 give user name password and other details and then install suggested plugins to finish the setup.
   
 5)After Jenkins setup is completed. 
