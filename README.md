@@ -18,7 +18,7 @@
 3)After installing terraform,create new directory "terraform-project" and create Main.tf and provider.tf files in terraform-project directory.You can Copy paste same files from my github account.
   #git clone https://github.com/iamchiru1024/valentine-date-project.git
   
-4)After clone the repository,run the below commands in the same directory to create jenkins server (It will install docker,trivy also)
+4)After cloneing the repository,run the below commands in the same directory,terraform will create jenkins server and install docker,trivy.
   a. terraform init
   b. terraform plan
   c. terraform apply
