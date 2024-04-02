@@ -39,7 +39,7 @@
   
   c. terraform apply
   
-  A new ec2 instance (jenkins server)will be created, use the public ip of the new instance to connect jenkins GUI.  (Jenkins url: <public-IP>:8080)
+  A new ec2 instance (jenkins server)will be created, use the public ip of the new instance to connect jenkins GUI.  (Jenkins url:public-IP:8080)
   
   for initial login password run below command
   
