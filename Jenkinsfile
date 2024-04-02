@@ -30,7 +30,7 @@ pipeline{
         stage('Docker push'){
             steps {
                 script{
-                   withDockerRegistry(credentialsId: 'docker-creds', toolName: 'docker'){   
+                   withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker'){   
                        sh "docker push chirru1024/valentinesdays:v1"
               }
           }
