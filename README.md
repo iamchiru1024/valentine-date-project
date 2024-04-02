@@ -27,11 +27,15 @@
      #aws configure  <provide your account security keys>
    
 3)After installing terraform,create new directory "terraform-project" and create Main.tf and provider.tf files in terraform-project directory.You can Copy paste same files from my github account.
+
   #git clone https://github.com/iamchiru1024/valentine-date-project.git
   
 4)After cloneing the repository,run the below commands in the same directory,terraform will create jenkins server and install docker,trivy.
+ 
   a. terraform init
+  
   b. terraform plan
+  
   c. terraform apply
   
   A new ec2 instance (jenkins server)will be created, use the public ip of the new instance to connect jenkins GUI.  url: <public-IP>:8080
