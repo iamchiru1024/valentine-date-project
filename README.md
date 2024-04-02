@@ -2,6 +2,7 @@
 
 1) Launch t2.micro ubuntu instance manually and allow all traffic.
 2) Login to the instance and install teraform by using below commands.
+   
    A. sudo apt update
    
    B.  wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
